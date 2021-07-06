@@ -1,10 +1,19 @@
 <template>
-  <div id="nav">
+  <div id="nav" style="background: rgb(245, 221, 243);">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> | 
+    <router-link to="/register">Register</router-link>
   </div>
   <router-view/>
 </template>
+
+<script>
+export default {
+  data() {
+    return {}
+  }
+}
+</script>
 
 <style>
 #app {
